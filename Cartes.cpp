@@ -12,12 +12,12 @@ int main(){
 		int a,b,c;scanf("%d %d %d",&a,&b,&c);
 		auto r = s.lower_bound(a-1);
 		for (; r!= s.end() && *r >= a-1 && *r <= b-1;){
-            if(*r == c-1) r++;
-            else {
-            arr[*r] = c;
-            r = s.erase(r);
-            }
-        }
+		    if(*r == c-1) r++;
+		    else {
+		    arr[*r] = c;
+		    r = s.erase(r);
+		    }
+       		 }
 	}
 	for(int i = 0;i<N;i++)printf("%d ",arr[i]);
 	printf("\n");

@@ -7,7 +7,6 @@ int c[NMAX], d[NMAX];
 int sz = 32;
 using namespace std;
 int ok(int x){
-// is it possible to transport d[0].... d[x-1] ?
 	ll eq = 0;
 	for(int i = 0, j = 0; i<x; i++){
 		j = max(j,d[i]);

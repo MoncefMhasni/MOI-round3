@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 #define NMAX 100005
-#endif
 #define inf (LLONG_MAX>>2)
 #define ll long long
 int c[NMAX], d[NMAX];
